@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    width: 1500px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    background-color: #0c1f2c;
+    border-radius: 20px;
+    box-shadow: 0 7px 20px rgb(0 0 0 / 70%);
+    overflow: hidden;
+}
+
+.presentacion-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    background-color: #cb2140;
+}
+.img-producto {
+    width: 300px;
+    height: 300px;
+}
+.stormtrooper {
+    width: 100%;
+    height: auto;
+}
+
+.info-producto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 560px;
+    padding: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.precio {
+    font-size: 30px;
+}
+
+.contenedor-filtros {
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contenedor-filtros > li {
+    list-style: none;
+    font-size: 11px;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #cb2140;
+    border-radius: 15px;
+}
+
+.boton-comprar {
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid #cb2140;
+    background-color: #cb2140;
+    border-radius: 30px;
+
+}
